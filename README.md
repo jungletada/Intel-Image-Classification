@@ -1,6 +1,6 @@
-Intel Image Classification
+# Intel Image Classification
 ===============================
-Introduction
+## Introduction
 -------------------------------
 * We purpose a Multi-scale ConvMixer in order to
 alleviate the drawback of ConvMixer: low inference speed, 
@@ -40,3 +40,8 @@ and install `timm` by `pip install timm`.
 
 You can use args to change default settings.
 Dataset is stored in `./data`.
+
+--------------------------------
+This work is the contirbutions of our group member at Waseda University.
+Code presented by Dingjie Peng
+Presentation: Haoyuan Liu, Fei Bao, Yiming Sun, JiaHao Liu.
