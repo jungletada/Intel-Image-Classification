@@ -1,7 +1,6 @@
 # Intel Image Classification
-===============================
+
 ## Introduction
--------------------------------
 * We purpose a Multi-scale ConvMixer in order to
 alleviate the drawback of ConvMixer: low inference speed, 
 no dimension reduction through the network.
@@ -13,7 +12,7 @@ test accuracy and inference speed.
 * In detail, we down-sample the feature map in original ConvMixer by MaxPooling,
 and modify the "depth" and kernel size.
 
-Usage
+## Usage
 --------------------------------
 Available models: 
 * MConvMixer
@@ -24,7 +23,7 @@ Available models:
 * visionformer-small
 * vit-base
 
-Requirements:
+## Requirements:
     `pytorch`, `torchvision`, `timm`
 
 You can install `pytorch` and `torchvision` follow https://pytorch.org/
@@ -37,7 +36,7 @@ and install `timm` by `pip install timm`.
 * To make prediction on Seg_pred,
 
     python main_pred.py
-
+--- 
 You can use args to change default settings.
 Dataset is stored in `./data`.
 
