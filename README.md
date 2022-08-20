@@ -31,11 +31,12 @@ and install `timm` by `pip install timm`.
 
 * To train the model, 
 
-    python main_run_model.py 
+   
+   `python main_run_model.py` 
 
 * To make prediction on Seg_pred,
 
-    python main_pred.py
+    `python main_pred.py`
 --- 
 You can use args to change default settings.
 Dataset is stored in `./data`.
