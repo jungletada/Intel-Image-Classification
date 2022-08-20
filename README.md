@@ -1,6 +1,7 @@
 # Intel Image Classification
-
+--------------------------------
 ## Introduction
+--------------------------------
 * We purpose a Multi-scale ConvMixer in order to
 alleviate the drawback of ConvMixer: low inference speed, 
 no dimension reduction through the network.
