@@ -24,7 +24,7 @@ Available models:
 * vit-base
 
 ## Requirements:
-    * pytorch, torchvision, timm
+    pytorch, torchvision, timm
 
 You can install `pytorch` and `torchvision` follow https://pytorch.org/
 and install `timm` by `pip install timm`.
